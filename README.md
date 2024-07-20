@@ -49,4 +49,12 @@ A confirmation message will be displayed making sure the user actually want to d
 And finally the deck name will be removed from decks.csv file and the csv file with deck name will also be removed.
 
 ##### Testing
-No third party libraries are required to test this program. You can just download and run project.py and try out yourself. All the functions are already tested in test_project.py file. Make sure you clean up your decks folder before trying out test_project.py.
+
+Libraries used - 
+import csv
+import os
+import sys
+import random
+import time
+
+You can download and run project.py and try out yourself. All the functions are already tested in test_project.py file by using pytest. Make sure you clean up your decks folder before trying out test_project.py.
