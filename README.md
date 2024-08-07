@@ -2,8 +2,10 @@
 #### Video demo: <https://www.youtube.com/watch?v=R2d2ZXP1dxw>
 #### Description: A flash card application to assist your study needs.
 
+After uploading a user interface, it is now usable in both CLI and GUI. Run project.py to test out CLI version and interface.py to try GUI version. 
+
 ##### Introduction
-This application will allow you to create decks, open decks (and revise/study) and delete decks and assist in your memorization process.
+This application will allow you to create decks, open decks (and revise/study) and delete decks and assist in your memorization process. 
 
 ##### How to
 In main page, the user is prompted to choose from 4 actions; creating deck, opening deck, deleting deck and exiting application.
@@ -34,10 +36,11 @@ Choose option 4 from the main page to exit the application.
 
 ##### Testing
 Libraries used - 
-csv, os, sys, random, time
-Pyside6, QtQuick
+csv, os, sys, random, time, Pyside6, QtQuick
 
 ##### User Interface
 Created user interface for more user friendly version. Run interface.py and try it out. 
+
+![alt text](image.png)
 
 You can download and run project.py and try out yourself. All the functions are already tested in test_project.py file by using pytest. Make sure you clean up your decks folder before trying out test_project.py.
