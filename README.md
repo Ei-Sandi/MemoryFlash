@@ -32,34 +32,12 @@ After chosing option 3,
 ###### EXITING APP
 Choose option 4 from the main page to exit the application.
 
-##### Code Explanation
-The application is written in project.py which includes all the codes required to fully function.
-
-Upon choosing the creating deck function , the deck name will be stored in decks.csv file of decks folder and another csv file with the deck name will be created.
-The decks.csv will store all the names of decks created.
-The other csv files created with deck names will store questions and answers sets inputted in each of the decks respectively.
-
-Upon choosing the opening deck function, all the deck names inside decks.csv will be listed and the user is required to choose one of the decks from the list. If the deck name of user requested doesn't exit in the list, an error message will be displayed.
-The csv file created with user-requested deck name will be opened and user will be asked to enter a time to think the answer.
-The questions will be asked in a random order.
-The user will be asked to enter whether they answer the question correctly or not and marks will be displayed at the end.
-
-Upon choosing the deleting deck function, all the decks name inside decks.csv will be listed and the user is required to choose one of the decks from the list. If the deck name of user requested doesn't exit in the list, an error message will be displayed.
-A confirmation message will be displayed making sure the user actually want to delete this deck.
-And finally the deck name will be removed from decks.csv file and the csv file with deck name will also be removed.
-
 ##### Testing
-
 Libraries used - 
+csv, os, sys, random, time
+Pyside6, QtQuick
 
-import csv
-
-import os
-
-import sys
-
-import random
-
-import time
+##### User Interface
+Created user interface for more user friendly version. Run interface.py and try it out. 
 
 You can download and run project.py and try out yourself. All the functions are already tested in test_project.py file by using pytest. Make sure you clean up your decks folder before trying out test_project.py.
